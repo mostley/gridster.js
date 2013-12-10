@@ -2696,6 +2696,7 @@
     */
     fn.remove_style_tags = function() {
         this.$style_tags.remove();
+        Gridster.generated_stylesheets = [];
     };
 
 
